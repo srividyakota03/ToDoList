@@ -1,0 +1,55 @@
+.app-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.todo-box {
+  margin: auto;
+  max-width: 500px;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fefefe;
+}
+
+.todo-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo-controls input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+.todo-controls button, select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 0.5rem;
+  margin: 0.3rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #999;
+  cursor: pointer;
+}
+
+.task-list li.done span {
+  text-decoration: line-through;
+  color: #888;
+}
